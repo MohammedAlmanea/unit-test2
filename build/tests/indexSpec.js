@@ -17,3 +17,7 @@ it('expect numbers.square(10) to equal (100)', () => {
 it('expect numbers.square(10) to equal (100)', () => {
     expect(numbers_1.default.square(-10)).toEqual(100);
 });
+// Test spec for divide function in numbers.ts
+it('expect numbers.divide(12.5,2) to be close to (6.25)', () => {
+    expect(numbers_1.default.divide(12.5, 2)).toBeCloseTo(6.25);
+});
