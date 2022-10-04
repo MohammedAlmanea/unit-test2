@@ -21,3 +21,9 @@ it('expect numbers.square(10) to equal (100)', () => {
 it('expect numbers.divide(12.5,2) to be close to (6.25)', () => {
     expect(numbers_1.default.divide(12.5, 2)).toBeCloseTo(6.25);
 });
+// Import all arrays.ts exports
+const arrays_1 = __importDefault(require("../utilities/arrays"));
+// Test spec for cut3 function in arrays.ts
+it('expect arrays.cut3(arr) to not equal (arr)', () => {
+    expect(arrays_1.default.cut3([1, 2, 3, 4, 5])).not.toEqual([1, 2, 3, 4, 5]);
+});
