@@ -30,5 +30,5 @@ module.exports = {
     concatArr,
     addArr,
     lgNum,
-    cut3
+    cut3,
 };
