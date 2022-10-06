@@ -27,6 +27,10 @@ describe('Test for divide function',() =>{
 it('expect numbers.divide(12.5,2) to be close to (6.25)', () => {
   expect(numbers.divide(12.5, 2)).toBeCloseTo(6.25);
 });
+// Input negative numbers divided by one
+it('expect numbers.divide(-55,1) to Equal (-55)', () => {
+  expect(numbers.divide(-55,1)).toEqual(-55);
+});
 
 });
 
