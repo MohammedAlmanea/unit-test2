@@ -27,10 +27,7 @@ describe('Test for divide function',() =>{
 it('expect numbers.divide(12.5,2) to be close to (6.25)', () => {
   expect(numbers.divide(12.5, 2)).toBeCloseTo(6.25);
 });
-// Input positive numbers divided by zero
-it('expect numbers.divide(12.5,2) to be close to (6.25)', () => {
-  expect(numbers.divide(12.5, 2)).toBeCloseTo(6.25);
-});
+
 });
 
 // Import all arrays.ts exports

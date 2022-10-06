@@ -30,8 +30,8 @@ describe('Test for divide function', () => {
         expect(numbers_1.default.divide(12.5, 2)).toBeCloseTo(6.25);
     });
     // Input positive numbers divided by zero
-    it('expect numbers.divide(12.5,2) to be close to (6.25)', () => {
-        expect(numbers_1.default.divide(12.5, 2)).toBeCloseTo(6.25);
+    it('expect numbers.divide(-23,0) to be falsy ()', () => {
+        expect(numbers_1.default.divide(-23, 0)).toBeFalse();
     });
 });
 // Import all arrays.ts exports
