@@ -57,7 +57,7 @@ import strings from '../utilities/strings';
 
 // Test suite for capitalize function in strings.ts
 describe('Test for capitalize function', () => {
-  it('expect strings.capitalize(string) to not equal (string)',() => {  
-      expect(strings.capitalize('hello')).not.toEqual('hello');
-    });
+  it('expect strings.capitalize(string) to not equal (string)', () => {
+    expect(strings.capitalize('hello')).not.toEqual('hello');
+  });
 });
