@@ -34,6 +34,13 @@ describe('Test for divide function', () => {
         expect(numbers_1.default.divide(-55, 1)).toEqual(-55);
     });
 });
+// Test suite for multiply function in numbers.ts
+describe('Test for multiply function', () => {
+    // Input negative numbers multiplied by 0 
+    it('expect numbers.multiply(-100,0) to not be truthy (0)', () => {
+        expect(numbers_1.default.multiply(-100, 0)).not.toBeTruthy(0);
+    });
+});
 // Import all arrays.ts exports
 const arrays_1 = __importDefault(require("../utilities/arrays"));
 // Test suite for cut3 function in arrays.ts

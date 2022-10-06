@@ -34,6 +34,14 @@ it('expect numbers.divide(-55,1) to Equal (-55)', () => {
 
 });
 
+// Test suite for multiply function in numbers.ts
+describe('Test for multiply function',() =>{
+  // Input negative numbers multiplied by 0 
+it('expect numbers.multiply(-100,0) to not be truthy (0)', () => {
+  expect(numbers.multiply(-100,0)).not.toBeTruthy(0);
+});
+})
+
 // Import all arrays.ts exports
 import arrays from '../utilities/arrays';
 
